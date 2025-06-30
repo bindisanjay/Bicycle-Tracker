@@ -1,0 +1,680 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		560722E4291102BF00D79DA0 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560722E3291102BF00D79DA0 /* LoginVC.swift */; };
+		5676BB8029107DF100858451 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5676BB7F29107DF100858451 /* AppDelegate.swift */; };
+		5676BB8229107DF100858451 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5676BB8129107DF100858451 /* SceneDelegate.swift */; };
+		5676BB8429107DF100858451 /* TrackVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5676BB8329107DF100858451 /* TrackVC.swift */; };
+		5676BB8729107DF100858451 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5676BB8529107DF100858451 /* Main.storyboard */; };
+		5676BB8A29107DF100858451 /* BicycleTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5676BB8829107DF100858451 /* BicycleTracker.xcdatamodeld */; };
+		5676BB8C29107DF500858451 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5676BB8B29107DF500858451 /* Assets.xcassets */; };
+		5676BB8F29107DF500858451 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5676BB8D29107DF500858451 /* LaunchScreen.storyboard */; };
+		5676BB9A29107DF500858451 /* BicycleTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5676BB9929107DF500858451 /* BicycleTrackerTests.swift */; };
+		5676BBA429107DF500858451 /* BicycleTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5676BBA329107DF500858451 /* BicycleTrackerUITests.swift */; };
+		5676BBA629107DF500858451 /* BicycleTrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5676BBA529107DF500858451 /* BicycleTrackerUITestsLaunchTests.swift */; };
+		F51B3D92292BFD180040B34B /* DatabaseHelp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51B3D91292BFD180040B34B /* DatabaseHelp.swift */; };
+		F51B3D94292C211A0040B34B /* HistoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51B3D93292C211A0040B34B /* HistoryVC.swift */; };
+		F53BEF97293904D600D011BF /* FetchedResultsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53BEF96293904D600D011BF /* FetchedResultsTVC.swift */; };
+		F542E0C02911F37600DFBD57 /* Signup+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F542E0BE2911F37600DFBD57 /* Signup+CoreDataClass.swift */; };
+		F542E0C12911F37600DFBD57 /* Signup+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F542E0BF2911F37600DFBD57 /* Signup+CoreDataProperties.swift */; };
+		F542E0C42911F3D800DFBD57 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F542E0C32911F3D800DFBD57 /* CoreData.framework */; };
+		F542E0C62911F46600DFBD57 /* SignupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F542E0C52911F46600DFBD57 /* SignupVC.swift */; };
+		F542E0C82911F62900DFBD57 /* DatabaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F542E0C72911F62900DFBD57 /* DatabaseHelper.swift */; };
+		F542E0CA29131CD100DFBD57 /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F542E0C929131CD000DFBD57 /* SettingsVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5676BB9629107DF500858451 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5676BB7429107DF100858451 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5676BB7B29107DF100858451;
+			remoteInfo = BicycleTracker;
+		};
+		5676BBA029107DF500858451 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5676BB7429107DF100858451 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5676BB7B29107DF100858451;
+			remoteInfo = BicycleTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		560722E3291102BF00D79DA0 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		56442DA7291ED38C005DFE08 /* myLocation.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = myLocation.gpx; sourceTree = "<group>"; };
+		5676BB7C29107DF100858451 /* BicycleTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BicycleTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5676BB7F29107DF100858451 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5676BB8129107DF100858451 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5676BB8329107DF100858451 /* TrackVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackVC.swift; sourceTree = "<group>"; };
+		5676BB8629107DF100858451 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5676BB8929107DF100858451 /* BicycleTracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BicycleTracker.xcdatamodel; sourceTree = "<group>"; };
+		5676BB8B29107DF500858451 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5676BB8E29107DF500858451 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5676BB9029107DF500858451 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5676BB9529107DF500858451 /* BicycleTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BicycleTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5676BB9929107DF500858451 /* BicycleTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BicycleTrackerTests.swift; sourceTree = "<group>"; };
+		5676BB9F29107DF500858451 /* BicycleTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BicycleTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5676BBA329107DF500858451 /* BicycleTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BicycleTrackerUITests.swift; sourceTree = "<group>"; };
+		5676BBA529107DF500858451 /* BicycleTrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BicycleTrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F51B3D91292BFD180040B34B /* DatabaseHelp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseHelp.swift; sourceTree = "<group>"; };
+		F51B3D93292C211A0040B34B /* HistoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryVC.swift; sourceTree = "<group>"; };
+		F53BEF96293904D600D011BF /* FetchedResultsTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FetchedResultsTVC.swift; sourceTree = "<group>"; };
+		F542E0BE2911F37600DFBD57 /* Signup+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Signup+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		F542E0BF2911F37600DFBD57 /* Signup+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Signup+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		F542E0C32911F3D800DFBD57 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F542E0C52911F46600DFBD57 /* SignupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupVC.swift; sourceTree = "<group>"; };
+		F542E0C72911F62900DFBD57 /* DatabaseHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseHelper.swift; sourceTree = "<group>"; };
+		F542E0C929131CD000DFBD57 /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5676BB7929107DF100858451 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F542E0C42911F3D800DFBD57 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5676BB9229107DF500858451 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5676BB9C29107DF500858451 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5676BB7329107DF100858451 = {
+			isa = PBXGroup;
+			children = (
+				56442DA7291ED38C005DFE08 /* myLocation.gpx */,
+				5676BB7E29107DF100858451 /* BicycleTracker */,
+				5676BB9829107DF500858451 /* BicycleTrackerTests */,
+				5676BBA229107DF500858451 /* BicycleTrackerUITests */,
+				5676BB7D29107DF100858451 /* Products */,
+				F542E0C22911F3D700DFBD57 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5676BB7D29107DF100858451 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5676BB7C29107DF100858451 /* BicycleTracker.app */,
+				5676BB9529107DF500858451 /* BicycleTrackerTests.xctest */,
+				5676BB9F29107DF500858451 /* BicycleTrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5676BB7E29107DF100858451 /* BicycleTracker */ = {
+			isa = PBXGroup;
+			children = (
+				F542E0BE2911F37600DFBD57 /* Signup+CoreDataClass.swift */,
+				F542E0BF2911F37600DFBD57 /* Signup+CoreDataProperties.swift */,
+				5676BB7F29107DF100858451 /* AppDelegate.swift */,
+				5676BB8129107DF100858451 /* SceneDelegate.swift */,
+				5676BB8329107DF100858451 /* TrackVC.swift */,
+				560722E3291102BF00D79DA0 /* LoginVC.swift */,
+				5676BB8529107DF100858451 /* Main.storyboard */,
+				F542E0C72911F62900DFBD57 /* DatabaseHelper.swift */,
+				5676BB8B29107DF500858451 /* Assets.xcassets */,
+				5676BB8D29107DF500858451 /* LaunchScreen.storyboard */,
+				5676BB9029107DF500858451 /* Info.plist */,
+				5676BB8829107DF100858451 /* BicycleTracker.xcdatamodeld */,
+				F542E0C52911F46600DFBD57 /* SignupVC.swift */,
+				F542E0C929131CD000DFBD57 /* SettingsVC.swift */,
+				F51B3D91292BFD180040B34B /* DatabaseHelp.swift */,
+				F51B3D93292C211A0040B34B /* HistoryVC.swift */,
+				F53BEF96293904D600D011BF /* FetchedResultsTVC.swift */,
+			);
+			path = BicycleTracker;
+			sourceTree = "<group>";
+		};
+		5676BB9829107DF500858451 /* BicycleTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				5676BB9929107DF500858451 /* BicycleTrackerTests.swift */,
+			);
+			path = BicycleTrackerTests;
+			sourceTree = "<group>";
+		};
+		5676BBA229107DF500858451 /* BicycleTrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5676BBA329107DF500858451 /* BicycleTrackerUITests.swift */,
+				5676BBA529107DF500858451 /* BicycleTrackerUITestsLaunchTests.swift */,
+			);
+			path = BicycleTrackerUITests;
+			sourceTree = "<group>";
+		};
+		F542E0C22911F3D700DFBD57 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F542E0C32911F3D800DFBD57 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5676BB7B29107DF100858451 /* BicycleTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5676BBA929107DF500858451 /* Build configuration list for PBXNativeTarget "BicycleTracker" */;
+			buildPhases = (
+				5676BB7829107DF100858451 /* Sources */,
+				5676BB7929107DF100858451 /* Frameworks */,
+				5676BB7A29107DF100858451 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BicycleTracker;
+			productName = BicycleTracker;
+			productReference = 5676BB7C29107DF100858451 /* BicycleTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5676BB9429107DF500858451 /* BicycleTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5676BBAC29107DF500858451 /* Build configuration list for PBXNativeTarget "BicycleTrackerTests" */;
+			buildPhases = (
+				5676BB9129107DF500858451 /* Sources */,
+				5676BB9229107DF500858451 /* Frameworks */,
+				5676BB9329107DF500858451 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5676BB9729107DF500858451 /* PBXTargetDependency */,
+			);
+			name = BicycleTrackerTests;
+			productName = BicycleTrackerTests;
+			productReference = 5676BB9529107DF500858451 /* BicycleTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5676BB9E29107DF500858451 /* BicycleTrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5676BBAF29107DF500858451 /* Build configuration list for PBXNativeTarget "BicycleTrackerUITests" */;
+			buildPhases = (
+				5676BB9B29107DF500858451 /* Sources */,
+				5676BB9C29107DF500858451 /* Frameworks */,
+				5676BB9D29107DF500858451 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5676BBA129107DF500858451 /* PBXTargetDependency */,
+			);
+			name = BicycleTrackerUITests;
+			productName = BicycleTrackerUITests;
+			productReference = 5676BB9F29107DF500858451 /* BicycleTrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5676BB7429107DF100858451 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					5676BB7B29107DF100858451 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					5676BB9429107DF500858451 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 5676BB7B29107DF100858451;
+					};
+					5676BB9E29107DF500858451 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 5676BB7B29107DF100858451;
+					};
+				};
+			};
+			buildConfigurationList = 5676BB7729107DF100858451 /* Build configuration list for PBXProject "BicycleTracker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5676BB7329107DF100858451;
+			productRefGroup = 5676BB7D29107DF100858451 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5676BB7B29107DF100858451 /* BicycleTracker */,
+				5676BB9429107DF500858451 /* BicycleTrackerTests */,
+				5676BB9E29107DF500858451 /* BicycleTrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5676BB7A29107DF100858451 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5676BB8F29107DF500858451 /* LaunchScreen.storyboard in Resources */,
+				5676BB8C29107DF500858451 /* Assets.xcassets in Resources */,
+				5676BB8729107DF100858451 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5676BB9329107DF500858451 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5676BB9D29107DF500858451 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5676BB7829107DF100858451 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F542E0C62911F46600DFBD57 /* SignupVC.swift in Sources */,
+				F51B3D94292C211A0040B34B /* HistoryVC.swift in Sources */,
+				F542E0C82911F62900DFBD57 /* DatabaseHelper.swift in Sources */,
+				5676BB8429107DF100858451 /* TrackVC.swift in Sources */,
+				5676BB8029107DF100858451 /* AppDelegate.swift in Sources */,
+				5676BB8A29107DF100858451 /* BicycleTracker.xcdatamodeld in Sources */,
+				F542E0C12911F37600DFBD57 /* Signup+CoreDataProperties.swift in Sources */,
+				F51B3D92292BFD180040B34B /* DatabaseHelp.swift in Sources */,
+				5676BB8229107DF100858451 /* SceneDelegate.swift in Sources */,
+				560722E4291102BF00D79DA0 /* LoginVC.swift in Sources */,
+				F542E0C02911F37600DFBD57 /* Signup+CoreDataClass.swift in Sources */,
+				F53BEF97293904D600D011BF /* FetchedResultsTVC.swift in Sources */,
+				F542E0CA29131CD100DFBD57 /* SettingsVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5676BB9129107DF500858451 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5676BB9A29107DF500858451 /* BicycleTrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5676BB9B29107DF500858451 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5676BBA429107DF500858451 /* BicycleTrackerUITests.swift in Sources */,
+				5676BBA629107DF500858451 /* BicycleTrackerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5676BB9729107DF500858451 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5676BB7B29107DF100858451 /* BicycleTracker */;
+			targetProxy = 5676BB9629107DF500858451 /* PBXContainerItemProxy */;
+		};
+		5676BBA129107DF500858451 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5676BB7B29107DF100858451 /* BicycleTracker */;
+			targetProxy = 5676BBA029107DF500858451 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5676BB8529107DF100858451 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5676BB8629107DF100858451 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5676BB8D29107DF500858451 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5676BB8E29107DF500858451 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5676BBA729107DF500858451 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5676BBA829107DF500858451 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5676BBAA29107DF500858451 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 88P68CW23Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BicycleTracker/Info.plist;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.northwest.BicycleTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5676BBAB29107DF500858451 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 88P68CW23Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BicycleTracker/Info.plist;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.northwest.BicycleTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5676BBAD29107DF500858451 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.northwest.BicycleTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BicycleTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BicycleTracker";
+			};
+			name = Debug;
+		};
+		5676BBAE29107DF500858451 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.northwest.BicycleTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BicycleTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BicycleTracker";
+			};
+			name = Release;
+		};
+		5676BBB029107DF500858451 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.northwest.BicycleTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BicycleTracker;
+			};
+			name = Debug;
+		};
+		5676BBB129107DF500858451 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.northwest.BicycleTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BicycleTracker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5676BB7729107DF100858451 /* Build configuration list for PBXProject "BicycleTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5676BBA729107DF500858451 /* Debug */,
+				5676BBA829107DF500858451 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5676BBA929107DF500858451 /* Build configuration list for PBXNativeTarget "BicycleTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5676BBAA29107DF500858451 /* Debug */,
+				5676BBAB29107DF500858451 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5676BBAC29107DF500858451 /* Build configuration list for PBXNativeTarget "BicycleTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5676BBAD29107DF500858451 /* Debug */,
+				5676BBAE29107DF500858451 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5676BBAF29107DF500858451 /* Build configuration list for PBXNativeTarget "BicycleTrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5676BBB029107DF500858451 /* Debug */,
+				5676BBB129107DF500858451 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5676BB8829107DF100858451 /* BicycleTracker.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5676BB8929107DF100858451 /* BicycleTracker.xcdatamodel */,
+			);
+			currentVersion = 5676BB8929107DF100858451 /* BicycleTracker.xcdatamodel */;
+			path = BicycleTracker.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5676BB7429107DF100858451 /* Project object */;
+}
